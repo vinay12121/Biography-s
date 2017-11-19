@@ -1,0 +1,59 @@
+body{
+	background: url("Images/background7.jpg") no-repeat center center fixed;
+	background-size: 100%;
+	font-family: 'Tangerine', cursive;
+	margin: 0;
+}
+div[class=nav]{
+	background: black;
+	width: 100%;
+	height: 40px;
+
+}
+div[class=navi]{
+	height: inherit;
+	float: left;
+	padding-left: 50px;
+}
+a{
+	height: inherit;
+}
+button{
+	height: inherit;
+	background: none;
+	color: white;
+	border: none;
+}
+div[class=navi2]{
+	height: inherit;
+	float: right;
+	padding-right: 50px;
+}
+img{
+	height: 400px;
+	width: 100%;
+	margin: 0;
+	box-shadow: 5px 4px 4px #2f3e50;
+}
+div[class="inner2"]{
+	width:70%;
+	margin: 0 auto;
+}
+button:hover{
+	background: steelblue;
+	color: white;
+}
+p{
+	color: white;
+	font-size: 40px;
+}
+img:hover{
+	animation: my 2s 1;
+	animation-fill-mode: forwards;
+}
+@keyframes my{
+	100%{
+		transform: scaleX(1.2) scaleY(1.2);
+		opacity: 0;
+	}
+}
